@@ -1,0 +1,29 @@
+{
+  "name": "testbackend",
+  "version": "1.0.0",
+  "description": "Test backend for Angular playground",
+  "main": "backend.js",
+  "type": "module",
+  "scripts": {
+    "start": "node source/backend.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "stylelint \"**/*.css\"",
+    "eslint": "eslint \"**/*.js\"",
+    "all": "npm run stylelint && npm run eslint  && node -e \"console.log('npm run all completed')\""
+  },
+  "author": "Martin Frey",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.11.0",
+    "stylelint-config-standard": "^28.0.0"
+  }
+}
